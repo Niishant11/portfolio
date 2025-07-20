@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Nishant Pandey Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Animated Background Canvas -->
+    <canvas id="bg-animation"></canvas>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home / Hero Section -->
+    <section id="home" class="fullscreen-section fade-in">
+        <div class="hero-content slide-down">
+            <img src="assets/nishant.jpeg" alt="Nishant Pandey Photo" class="avatar home-avatar" />
+            <h1>Nishant Pandey</h1>
+            <p>AI/ML-Driven Software Engineer & Web Developer</p>
+            <a href="assets/cv.pdf" target="_blank" class="btn btn-primary pulse">Download CV</a>
+            <div class="scroll-down">
+                <span>&#8675;</span>
+                <small>Scroll to explore</small>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="content-section animate-section">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li><strong>Web Tech:</strong> HTML, CSS, Bootstrap, JS, MySQL, WordPress</li>
+            <li><strong>Database:</strong> MySQL, JSON, Configurations</li>
+            <li><strong>Software:</strong> VS Code, Git, Docker, Postman, IntelliJ IDEA</li>
+            <li><strong>Libraries:</strong> NumPy, Pandas, Matplotlib, Playwright</li>
+            <li><strong>Languages:</strong> Python, C, C++, Java, JS</li>
+            <li><strong>Professional:</strong> Leadership, Problem-solving, Teamwork</li>
+        </ul>
+    </section>
+
+    <section id="experience" class="content-section animate-section">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="job">
+                <h3>Software Engineer Trainee AI (Intern)</h3>
+                <p>R Systems International Limited, Jun 2025 - Present</p>
+                <ul>
+                    <li>Developed an AI-powered web automation framework (Playwright + Gemini AI).</li>
+                    <li>Maintained test Python scripts, boosting test coverage and reducing QA time by 60%.</li>
+                    <li>Built REST APIs and a web config editor for test management and accessibility.</li>
+                    <li>Containerized environments with Docker for reliable deployment.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Website Executive</h3>
+                <p>Space Technology and Education Pvt. Ltd., Dec 2022 - Aug 2023</p>
+                <ul>
+                    <li>Managed user access for 5,000+ students on iAstronomer.</li>
+                    <li>Coordinated 150+ school events with a 95% completion rate.</li>
+                    <li>Digitized media for 100+ online classes, increasing engagement by 30%.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Intern</h3>
+                <p>Space Technology and Education Pvt. Ltd., Sep 2022 - Nov 2022</p>
+                <ul>
+                    <li>Coordinated interactive school sessions for 500+ students.</li>
+                    <li>Implemented social media strategies, reducing errors by 20%.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="content-section animate-section">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>"Turn the Page"</h3>
+            <ul>
+                <li>Physical book marketplace + e-library hybrid.</li>
+                <li>Eco-friendly, reduces book waste by 30%.</li>
+                <li>AI-powered chatbot for seamless UX.</li>
+            </ul>
+        </div>
+        <div class="project">
+            <h3>Voice-Activated AI Assistant (Jarvis)</h3>
+            <ul>
+                <li>Python, OpenAI GPT-3.5, voice input/output.</li>
+                <li>Real-time automation and info tasks.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education" class="content-section animate-section">
+        <h2>Education & Certifications</h2>
+        <ul>
+            <li><strong>B.Tech in CSE (AI/ML)</strong> — 2023-26</li>
+            <li><strong>Diploma in Computer Science</strong> — 2020-23</li>
+            <li><strong>Certifications:</strong> DSA using C++, Python, AWS Cloud Foundations</li>
+        </ul>
+    </section>
+
+    <footer id="contact" class="content-section animate-section">
+        <h2>Contact</h2>
+        <ul>
+            <li>Email: niishantpandey@gmail.com</li>
+            <li>Phone: 8595338950</li>
+            <li>GitHub: nishantpandey11</li>
+            <li>LinkedIn: Niishant11</li>
+            <li>Location: New Delhi</li>
+        </ul>
+        <form id="contactForm">
+            <input required type="text" name="name" placeholder="Your Name" />
+            <input required type="email" name="email" placeholder="Your Email" />
+            <textarea required name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+            <div id="formStatus"></div>
+        </form>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
